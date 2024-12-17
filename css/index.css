@@ -1,0 +1,37 @@
+@import url(global.css);
+@import url(utilyti.css);
+@import url(sections.css);
+
+header{
+width: 100vw;
+height: 120px;
+}
+nav {
+display: flex;
+flex-direction: column;
+
+
+}
+
+.main-header, .links-header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--brand-color-dark);
+    font-size: var(--text);
+}
+.main-header{
+    padding: 20px 32px;
+    
+}
+.main-header a {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.links-header ul{
+    flex-direction: row;
+    padding: 14px 32px;
+    
+}
+
